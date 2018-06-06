@@ -50,6 +50,7 @@ class RecurringSalesInvoice extends Model {
         'version',
         'active',
         'custom_fields',
+        'version'
     ];
 
     /**
