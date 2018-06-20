@@ -6,6 +6,7 @@ use Picqer\Financials\Moneybird\Actions\Removable;
 use Picqer\Financials\Moneybird\Actions\Storable;
 use Picqer\Financials\Moneybird\Exceptions\ApiException;
 use Picqer\Financials\Moneybird\Model;
+use Picqer\Financials\Moneybird\Actions\Synchronizable;
 
 /**
  * Class Receipt
@@ -13,7 +14,7 @@ use Picqer\Financials\Moneybird\Model;
  */
 class Receipt extends Model {
 
-    use FindAll, FindOne, Storable, Removable;
+    use FindAll, FindOne, Storable, Removable, Synchronizable;
 
     /**
      * @var array
@@ -43,6 +44,7 @@ class Receipt extends Model {
         'payments',
         'notes',
         'attachments',
+        'version',
     ];
 
     /**
