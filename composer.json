@@ -1,5 +1,5 @@
 {
-  "name": "picqer/moneybird-php-client",
+  "name": "cblacks/moneybird-php-client",
   "type": "library",
   "description": "A PHP Client for the Moneybird V2 API",
   "keywords": [
@@ -7,7 +7,7 @@
     "php",
     "moneybird"
   ],
-  "homepage": "https://github.com/picqer/moneybird-php-client",
+  "homepage": "https://github.com/cblacks/moneybird-php-client",
   "license": "MIT",
   "authors": [
     {
